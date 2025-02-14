@@ -42,7 +42,7 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW you love me that much chula?? 🥰💍💝",  // Shows when they go past 5000%
+        extreme: "WOOOOW you love me that much chula?? 🥰💝",  // Shows when they go past 5000%
         high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
         normal: "And beyond! 🥰"                           // Shows when they go past 100%
     },
@@ -61,7 +61,7 @@ const CONFIG = {
         backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
         buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
         buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#80b0e0"             // Text color (make sure it's readable!)
+        textColor: "#ff4757"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
@@ -81,7 +81,7 @@ const CONFIG = {
         musicUrl: "https://res.cloudinary.com/dvekigaml/video/upload/v1739496517/pink-matter_d10vir.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
-        volume: 1.0                        // Volume level (0.0 to 1.0)
+        volume: 0.5                        // Volume level (0.0 to 1.0)
     }
 };
 
